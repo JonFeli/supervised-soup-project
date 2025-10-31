@@ -26,4 +26,4 @@ github
 colab
 jira
 confluence
-resources website
+https://neuralspiral.github.io/deep-learning-resources/
