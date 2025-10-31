@@ -1,1 +1,30 @@
+
 data/ImageNetSubset
+
+# python stf
+__pycache__/
+*.py[cod]
+
+# IDEs
+.vscode/
+.idea/
+
+# virtual environments
+venv/
+env/
+.env/
+.venv/
+ENV/
+*.env
+
+# notebooks
+.ipynb_checkpoints/
+*.nbconvert.ipynb
+
+# tmp files
+tmp/
+.cache/
+__cache__/
+*.tmp
+*.bak
+
