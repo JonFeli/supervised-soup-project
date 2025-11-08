@@ -6,14 +6,26 @@
 - VScode
 
 ## Repo structure
-#### Data
+#### data
 Since the ImagNetSubset is over 1 GB, I have added it to the gitignore, to keep the repo size small.
 We will host the ImageNetSubset for training on google drive.
 We can also upload the images for the final test set here.
 
-#### Notebooks
+### docs
+This folder is for documentation, guides and info.
+
+### experiments
+Here we can keep our experiments seperate.
+
+#### notebooks
 In the notebooks folder we can save our colab notebooks.
 I have added a colab_setup notebook that contains code to setup each notebook (git integration, paths, dependencies).
+
+### results
+Here we can put logs and results from experiments.
+
+### scripts
+The scripts folder is for small helper scripts.
 
 #### supervised _soup
 The supervised_soup folder is for our main, stable and reusable code (e.g. dataloader, model and training logic)
@@ -31,7 +43,7 @@ I would suggest that whenever we work on something new, we do so on a separate b
 ## Team links
 ##### Github
 - project repo: https://neuralspiral.github.io/deep-learning-resources/
-- repo for presentation and report: https://github.com/NeuralSpiral/supervised-soup-group
+- repo for presentations and report: https://github.com/NeuralSpiral/supervised-soup-group
 
 ##### Jira
 https://stud-team-rn9zsvdn.atlassian.net/jira/software/projects/SSXP/summary
