@@ -1,5 +1,7 @@
 
-data/ImageNetSubset
+# folers
+data/
+results/
 
 # python stf
 __pycache__/
@@ -16,6 +18,12 @@ env/
 .venv/
 ENV/
 *.env
+.conda/
+# ignore packaging stuff
+*.egg-info/
+*.egg
+dist/
+build/
 
 # notebooks
 .ipynb_checkpoints/

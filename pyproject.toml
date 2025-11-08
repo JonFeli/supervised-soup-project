@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "supervised-soup"
+version = "0.1.0"
+description = "Image classification experiments on an ImageNet subset"
+authors = [
+  { name = "Your Name", email = "your@email.com" }
+]
+readme = "README.md"
+requires-python = ">=3.12"
+
+dependencies = [
+  "numpy==2.0.2",
+  "pandas==2.2.2",
+  "torch==2.8.0",
+  "torchvision==0.23.0",
+  "timm==1.0.21",
+  "torchmetrics==1.4.0",
+  "wandb==0.22.2",
+  "python-dotenv==1.2.1",
+  "tqdm==4.67.1",
+  "matplotlib==3.10.0"
+]
+
+[tool.setuptools.packages.find]
+where = ["supervised_soup"]

@@ -1,1 +1,19 @@
+# Core Python version used in environment.yml(for reference)
+# python==3.12.12
+
+# main dependencies
+numpy==2.0.2
+pandas==2.2.2
+matplotlib==3.10.0
+torch==2.8.0
+torchvision==0.23.0
+jupyter
+pip
+
+# additional ones
+timm==1.0.21
+torchmetrics==1.4.0
+wandb==0.22.2
+python-dotenv==1.2.1
+tqdm==4.67.1
 

@@ -1,0 +1,29 @@
+name: supervised-soup-env
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.12
+  - pip
+  - jupyter
+  - matplotlib=3.10.0
+
+  - pip:
+      - numpy==2.0.2
+      - pandas==2.2.2
+      # - torch==2.8.0
+      # - torchvision==0.23.0
+      - timm==1.0.21
+      - torchmetrics==1.4.0
+      - wandb==0.22.2
+      - python-dotenv==1.2.1
+      - tqdm==4.67.1
+
+# Note on torch and torchvision:
+# For the local setup the PyTorch installation is done in local_setup.sh
+# locally we will install the CPU versions of torch and torchvision: 
+# torch==2.8.0+cpu 
+# torchvision==0.23.0+cpu
+# The reason is that the default GPU versions are very large and we won't need them locally since we will do the actual training on colab.
+# Unfortunately conda doesn't seem to be able to handle the +cpu installation, so it is handled in local_setup.sh
