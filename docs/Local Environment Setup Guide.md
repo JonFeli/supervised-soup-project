@@ -15,7 +15,8 @@ The purpose of this setup is that our code is reproducible and that we all work 
 
 ## 1. Clone the repository
 
-`git clone https://github.com/NeuralSpiral/supervised-soup-project.git 
+`git clone https://github.com/NeuralSpiral/supervised-soup-project.git`
+
 `cd supervised-soup-project`
 
 ---
@@ -28,7 +29,8 @@ In the project root directory, create a file named `.env`:
 
 Edit the file and add the following lines:
 
-`DATA_PATH=/home/username/path/to/dataset 
+`DATA_PATH=/home/username/path/to/dataset`
+
 `RESULTS_PATH=results`
 
 Notes:
@@ -62,7 +64,7 @@ If successful, you should see:
 
 ## 4. Activate the environment
 
-To activate the environment manually later:
+To activate the environment manually:
 
 `conda activate supervised-soup-env`
 
@@ -74,6 +76,7 @@ To allow for clean imports, install our project as a local package with:
 `pip install -e .`
 
 You can check if the package is installed by running:
+
 `pip show supervised_soup`
 
 ---
@@ -128,5 +131,6 @@ To remove the environment:
 - GitLens
 
 ## Sources
-https://goodresearch.dev/
-https://chanind.github.io/2023/06/04/academics-open-source-research-code-python-tips.html
+- https://goodresearch.dev/
+
+- https://chanind.github.io/2023/06/04/academics-open-source-research-code-python-tips.html
