@@ -129,6 +129,7 @@ To remove the environment:
 ## Additional VScode extensions
 - Pylance (linter)
 - GitLens
+- Dotenv
 
 ## Sources
 - https://goodresearch.dev/
